@@ -12,19 +12,19 @@ int main()
     printf("enter your name: ");
     scanf("%s", name);
 
-    printf("enter your age: ");
+    printf("\nenter your age: ");
     scanf("%d", &age);
 
-    printf("enter your department: ");
+    printf("\nenter your department: ");
     scanf("%s", department );
 
-    printf("enter your section: ");
+    printf("\nenter your section: ");
     scanf("%s", section);
 
-    printf("enter your studentID: ");
+    printf("\nenter your studentID: ");
     scanf("%s", studentID);
 
-    printf("enter your university name: ");
+    printf("\nenter your university name: ");
     scanf("%s", UniversityName);
 
     printf("Name: %s\n", name);
