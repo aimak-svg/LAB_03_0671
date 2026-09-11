@@ -10,21 +10,21 @@ int main()
     char UniversityName[50];
 
     printf("enter your name: ");
-    scanf("%s", name);
+    scanf("%[^\n]", name);
 
-    printf("\nenter your age: ");
+    printf("\n enter your age: ");
     scanf("%d", &age);
 
-    printf("\nenter your department: ");
+    printf("\n enter your department: ");
     scanf("%s", department );
 
-    printf("\nenter your section: ");
+    printf("\n enter your section: ");
     scanf("%s", section);
 
-    printf("\nenter your studentID: ");
+    printf("\n enter your studentID: ");
     scanf("%s", studentID);
 
-    printf("\nenter your university name: ");
+    printf("\n enter your university name: ");
     scanf("%s", UniversityName);
 
     printf("Name: %s\n", name);
